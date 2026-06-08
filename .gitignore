@@ -1,0 +1,12 @@
+# ModelSim
+work/
+vsim.wlf
+*.wlf
+transcript
+
+# Backup files
+*.bak
+
+# Report/temp files
+*.rpt
+*.mpf
