@@ -18,7 +18,7 @@ reg [31:0] regs [0:31];
 
 integer i;
 
-// Ghi d? li?u vào thanh ghi
+// Ghi du lieu vào thanh ghi
 always @(posedge clk or posedge rst) begin
     if (rst) begin
         for (i = 0; i < 32; i = i + 1) begin
@@ -31,7 +31,7 @@ always @(posedge clk or posedge rst) begin
     end
 end
 
-// ??c d? li?u t? thanh ghi
+// Doc du lieu tu thanh ghi
 assign read_data1 = (rs1 == 5'd0) ? 32'b0 : regs[rs1];
 assign read_data2 = (rs2 == 5'd0) ? 32'b0 : regs[rs2];
 
