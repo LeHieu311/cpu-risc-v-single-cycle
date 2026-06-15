@@ -5,4 +5,11 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 Top level modules:
 	imm_gen
 
+} {} {}} D:/CPU_Project/imm_gen_tb.v {1 {vlog -work work -stats=none D:/CPU_Project/imm_gen_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module imm_gen_tb
+
+Top level modules:
+	imm_gen_tb
+
 } {} {}}
