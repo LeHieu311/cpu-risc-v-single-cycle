@@ -1,12 +1,16 @@
 # ModelSim
 work/
-vsim.wlf
-*.wlf
 transcript
+vsim.wlf
+*.mti
+*.log
 
-# Backup files
+# Quartus
+db/
+incremental_db/
+output_files/
+
 *.bak
-
-# Report/temp files
 *.rpt
-*.mpf
+*.summary
+*.smsg
