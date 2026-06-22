@@ -35,4 +35,15 @@ end
 assign read_data1 = (rs1 == 5'd0) ? 32'b0 : regs[rs1];
 assign read_data2 = (rs2 == 5'd0) ? 32'b0 : regs[rs2];
 
+always @(posedge clk) begin
+
+    $display(
+        "x1=%d x2=%d x3=%d",
+        regs[1],
+        regs[2],
+        regs[3]
+    );
+
+end
+
 endmodule
