@@ -34,7 +34,7 @@ Supported Instructions
 
 ## CPU Datapath
 
-![CPU Datapath](docs/Single-Cycle Datapath CPU.png)
+![CPU Datapath](https://github.com/LeHieu311/cpu-risc-v-single-cycle/blob/main/docs/Single-Cycle%20Datapath%20CPU.png)
 
 
 ---
