@@ -2,15 +2,14 @@
 work/
 transcript
 vsim.wlf
+
+# Project files
+*.mpf
 *.mti
-*.log
-
-# Quartus
-db/
-incremental_db/
-output_files/
-
 *.bak
-*.rpt
-*.summary
-*.smsg
+*.log
+*.jou
+*.pb
+
+# Temporary
+*.tmp
