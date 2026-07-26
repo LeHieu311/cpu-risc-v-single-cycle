@@ -34,7 +34,8 @@ Supported Instructions
 
 ## CPU Datapath
 
-(Add datapath image here)
+![CPU Datapath](docs/Single-Cycle Datapath CPU.png)
+
 
 ---
 
